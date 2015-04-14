@@ -6,9 +6,7 @@ int main()
 {
 	int age1 = 14;
 	int age2 = 27;
-	//this pointer can modify address but do not modify self value
 	const int *p1;
-
 	p1 = &age1;
 	cout << "p1 address=" << p1 << endl;
 	cout << "*p1" << *p1 << endl;
@@ -33,7 +31,7 @@ int main()
 	
 
 
-	//this pointer can modify self value but do not modify self address
+
 	int *  const p2 = &age2;
 
 
